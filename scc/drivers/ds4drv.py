@@ -20,8 +20,7 @@ import sys, logging, ctypes
 log = logging.getLogger("DS4")
 
 VENDOR_ID = 0x054c
-PRODUCT_ID = 0x09cc
-
+PRODUCT_ID = 0x05c4
 
 class DS4Controller(HIDController):
 	# Most of axes are the same
